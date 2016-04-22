@@ -2,7 +2,7 @@
 Machine learning aspect detection for Russian verbs.
 
 ## About
-The work is done as a part of VerbNet project developed at *Higher School of Economics, Moscow, Philology department, master's programme Computational Linguistics* (https://www.hse.ru/en/ma/ling/) For further information on the project, visit http://web-corpora.net/wsgi3/ru-verbs/
+The work is done as a part of VerbNet project developed at *Higher School of Economics, Moscow, Philology department, master's programme [Computational Linguistics](https://www.hse.ru/en/ma/ling/)* For further information on the project, visit http://web-corpora.net/wsgi3/ru-verbs/
 
 ### What's that?
 Here is the tool for predicting aspect of Russian verbs. Sure, it's entirely okay to map verb's aspect by hand as Russian native speaker can determine that in a matter of milliseconds, but when you have a large list of verbs mined from somewhere on the Internet, the task becomes a bit frustrating. Here, you just upload a file with your verbs, and get the aspects for them with machine learning classifier trained on nearly 6800 verbs. Several classifiers were tested for that purpose with LinearSVC with l1 penalty proving to be the best in terms of accuracy.
