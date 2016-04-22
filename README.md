@@ -43,3 +43,8 @@ Options:
                         Save benchmark diagram to GRAPH_OUTPUT_FILE. File
                         extension must be either png or pdf
 ```
+
+## Related repos
+You can also:
+* [Parse yourself some synsets from synonym dictionary](https://github.com/tiefling-cat/bparser)
+* [Explore a proto semantic graph of verbs made from word2vec model](https://github.com/tiefling-cat/verb2graph)
